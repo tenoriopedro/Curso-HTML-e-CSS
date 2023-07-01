@@ -8,3 +8,6 @@ Todas tags HTML
 
  Box Model
  https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model
+
+ Listas e Menus com HTML 
+ https://www.w3schools.com/html/html_lists.asp
