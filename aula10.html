@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 800px;
+        }
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+        table caption {
+            caption-side: bottom;
+            text-align: left;
+            font-style: italic;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        tfoot td, table th {
+            background: #ddd;
+        }
+        .responsive-table {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit.
+    </p>
+    <div class="responsive-table">
+        <table>
+            <caption>
+                Descrição para tabela
+            </caption>
+            <thead>
+                <tr>
+                    <th>Titulo 1</th>
+                    <th>Titulo 2</th>
+                    <th>Titulo 3</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Corpo1</td>
+                    <td>Corpo2</td>
+                    <td>Corpo3</td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">AQUI</tr>td>
+                    <td>Corpo3</td>
+                </tr>
+                <tr>
+                    <td>Corpo1</td>
+                    <td>Corpo2</td>
+                    <td>Corpo3</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td rowspan="2" colspan="2"></td>
+                    <td>TOTAL:</td>
+                </tr>
+                <tr>
+                    <td>555€</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
