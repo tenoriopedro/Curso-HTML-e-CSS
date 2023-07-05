@@ -11,3 +11,10 @@ Todas tags HTML
 
  Listas e Menus com HTML 
  https://www.w3schools.com/html/html_lists.asp
+
+ Como estruturar um formulário HTML
+ https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_form
+
+ HTML Input Types
+ https://www.w3schools.com/html/html_form_input_types.asp
+ 
